@@ -1,0 +1,20 @@
+{
+  "name": "react-native-orientation-lock",
+  "description": "A React Native module for iOS and Android allows you to lock & unlock the device orientation.",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pvanliefland/react-native-orientation-lock.git"
+  },
+  "nativePackage": true,
+  "author": "Pierre Vanliefland (pvanliefland)",
+  "keywords": [
+    "react-native",
+    "react-native-orientation-lock",
+    "react",
+    "native",
+    "orientation",
+    "lock"
+  ]
+}
