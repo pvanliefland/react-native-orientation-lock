@@ -35,7 +35,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ExampleTests.m */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		364E175E4ED24B8AAE7BE680 /* libRNOrientationLock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A78B0A3F4C4B91A8AAD195 /* libRNOrientationLock.a */; };
+		F02A1F16C96D4435B1BFF791 /* libRNOrientationLock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 716037DEA7BB4002BFB931CC /* libRNOrientationLock.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -255,8 +255,8 @@
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		D569D2A62B96426FADB3ACFA /* RNOrientationLock.xcodeproj */ = {isa = PBXFileReference; name = "RNOrientationLock.xcodeproj"; path = "../node_modules/react-native-orientation-lock/ios/RNOrientationLock.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		56A78B0A3F4C4B91A8AAD195 /* libRNOrientationLock.a */ = {isa = PBXFileReference; name = "libRNOrientationLock.a"; path = "libRNOrientationLock.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		3510BAB264034755A3A27C89 /* RNOrientationLock.xcodeproj */ = {isa = PBXFileReference; name = "RNOrientationLock.xcodeproj"; path = "../node_modules/react-native-orientation-lock/ios/RNOrientationLock.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		716037DEA7BB4002BFB931CC /* libRNOrientationLock.a */ = {isa = PBXFileReference; name = "libRNOrientationLock.a"; path = "libRNOrientationLock.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,7 +283,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				364E175E4ED24B8AAE7BE680 /* libRNOrientationLock.a in Frameworks */,
+				F02A1F16C96D4435B1BFF791 /* libRNOrientationLock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +450,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				D569D2A62B96426FADB3ACFA /* RNOrientationLock.xcodeproj */,
+				3510BAB264034755A3A27C89 /* RNOrientationLock.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";

@@ -13,6 +13,13 @@ import com.facebook.react.bridge.Arguments;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
 
 public class OrientationLockModule extends ReactContextBaseJavaModule {
+  private ReactApplicationContext mReactContext;
+
+  public OrientationLockModule(ReactApplicationContext reactContext) {
+    super(reactContext);
+    mReactContext = reactContext;
+  }
+
   @Override
   public String getName() {
     return "OrientationLock";
