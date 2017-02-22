@@ -1,0 +1,5 @@
+rootProject.name = 'Example'
+include ':react-native-orientation-lock'
+project(':react-native-orientation-lock').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-orientation-lock/android')
+
+include ':app'
